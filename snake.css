@@ -1,0 +1,35 @@
+body {
+    font-family:'Courier New', Courier, monospace; color: rgb(74, 1, 163);
+    letter-spacing: 15px;
+    l;;
+    font-size:18px;
+    text-align: center;
+    background-color: rgb(57, 18, 101);
+    background: radial-gradient(farthest-side at 100px 100px, rgb(10, 60, 86) 0%, rgb(44, 7, 81) 99.9%),rgb(152, 29, 82)100%;
+    background-attachment: fixed;
+
+ 
+
+}
+#score-container {
+    display: flex;
+    justify-content: space-between;
+    width: 500px; /* Matches board width (20 * 25) */
+    margin: 10px auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+#start {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #085252;
+    color: rgb(202, 129, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
